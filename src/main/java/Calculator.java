@@ -1,4 +1,3 @@
-
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
@@ -11,7 +10,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet("/calculator")
-public class calculator extends HttpServlet {
+public class Calculator extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
